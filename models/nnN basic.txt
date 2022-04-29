@@ -1,0 +1,17 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_input (Dense)         (None, 16)                144       
+                                                                 
+ distribution_weights (Dense  (None, 14)               238       
+ )                                                               
+                                                                 
+ output (MultivariateNormalT  ((None, 4),              0         
+ riL)                         (None, 4))                         
+                                                                 
+=================================================================
+Total params: 382
+Trainable params: 382
+Non-trainable params: 0
+_________________________________________________________________
